@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 1.1em;
+    color: #eee;
+}
+
+header {
+    font-size: 1.2em;
+    background: #f00;
+    padding: 40px 0;
+}
+
+header, section {
+    display: block;
+}
+
+.h_container div:first-child, div:nth-child(3) {
+    position: relative;
+    font-size: 2em;
+    top: 50px;
+}
+
+.spacing {
+    padding: 0 65px;
+}
+
+.h_container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 0 60px;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    background: #fff;
+    color: #f00;
+    border-radius: 120px;
+    max-width: 100%;
+    height: 230px;
+    margin-bottom: 5px;
+}
+.rep {
+    margin-top: 35px;
+}
+#slogan {
+    background: #000;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: "New Cursive", cursive;
+    border-radius: 20px;
+}
+
+.logo h2 {
+    margin-top: -25%;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+a img {
+    width: 95%;
+    height: 200px;
+    border: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: auto;
+}
+
+.text-center {
+    text-align: center;
+    padding: auto;
+}
+
+.img-responsive {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    padding: auto;
+    background: #99e;
+}
+
+.prices {
+    position: relative;
+    float: right;
+    right: 60px;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    color: #f00;
+    background: #000;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.img {
+    width: 95%;
+    margin: 7px auto;
+    padding: auto;
+    z-index: 1;
+}
+
+ul {
+    display: none;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.container div:nth-child(3) {
+    margin-top: -50px;
+}
+footer {
+    background: #000;
+    color: #ddd;
+    font-size: 24px;
+}
+
+.a-tag {
+    text-decoration: none;
+    color: #c0c0c0;
+    text-transform: capitalize;
+}
+
+.address p {
+    display: inline-block;
+    padding: 30px 70px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.hidden {
+    display: inline-block;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+	width: 100%;
+	font-size: 16px;
+    }
+
+    .h_container div:first-child {
+	display: none;
+    }
+    .h_container {
+	display: block;
+	font-size: 12px;
+	padding: 10px auto;
+	margin: 0 auto;
+	max-height: 130px;
+    }
+
+
+    .h_container div {
+	display: block;
+    }
+
+    .logo {
+	max-width: 80%;
+	height: 180px;
+	position: relative;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%, -5%);
+	margin: 0 auto;
+	z-index: 1;
+    }
+
+    .logo h2 {
+	font-size: 16px;
+    }
+
+    a img {
+	margin-left: -35px;
+	width: 200%;
+	height: 150px;
+	border: none;
+    }
+
+    .rep {
+	margin-top: 42px;
+    }
+    
+    #slogan {
+	font-size: 1em;
+	padding: 0 auto;
+	z-index: 2;
+    }
+
+    .hidden {
+	display: none;
+    }
+
+    .logo h2 {
+	margin-left: -20px;
+    }
+
+    footer {
+	position: relative;
+	top: 30px;
+	font-size: 14px;
+    }
+
+    .address p {
+	display: block;
+	padding: 7px 0;
+    }
+}

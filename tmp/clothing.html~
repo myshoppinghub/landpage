@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+  <header>
+      <div class="banners">
+	<div class="logo">
+	  <a href="index.html"><img id="img" src="logo.png" alt="Site Logo"></a>
+	  <h2>CLOTHING</h2>
+	  <p class="slogan text-center">Your No.1 Online Advertising Site in Zambia</p>
+	</div>
+	<nav class="navbar">
+	  <ul>
+	    <li id="st" ><a href="#">food</a></li>
+	    <li><a id="nd"  href="#">cosmetics</a>
+	    </li>
+	    <li><a id="rd" href="#">clothing</a></li>
+      <li><a id="rth" href="#">promotions</a></li>
+	    <li><a id="fth" href="#">support</a></li>
+	  </ul>
+	  </nav>
+      </div>
+  </header>
+  
+  <section>
+    <div>
+    </div>
+  </section>
+  
+  <section class="container">
+    <div class="image-responsive">
+      <img class="img"  src="images/Clothing/img_1.jpg" alt="image.jpg">
+    </div>
+    <div class="image-responsive">
+      <img class="img" src="images/Clothing/img_2.jpg" alt="image.jpg">
+    </div>
+    <div class="image-responsive">
+      <img class="img" src="images/Clothing/img_3.jpg" alt="image.jpg">
+    </div>
+    <div class="image-responsive">
+      <img class="img" src="images/Clothing/img_4.jpg" alt="image.jpg">
+    </div>
+    <div class="image-responsive">
+      <img class="img" src="images/Clothing/img_5.jpg" alt="image.jpg">
+    </div>
+    <div class="image-responsive">
+      <img class="img" src="images/Clothing/more.jpg" alt="image.jpg">
+    </div>
+  </section>
+  
+  <footer>
+      <div class="text-center address">
+	<p><a href="#top">home</a></p>
+	<p><a href="#">contacts</a></p>
+	<p><a href="#">about</a></p>
+      </div>
+      <cite align="center">&copy;Copyrights 2021</cite>
+  </footer>
+  
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #a33;
+}
+
+#img {
+    width: 85%;
+    height: 100px;
+    border-radius: 60px;
+}
+
+.banners a {
+    color: #fff;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.logo, .navbar {
+    padding: 20px 200px;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
